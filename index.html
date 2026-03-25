@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List JS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <h1>Lista de Tarefas</h1>
+      <p class="subtitle">Organize seu dia com praticidade.</p>
+
+      <form id="task-form" class="task-form">
+        <input type="text" id="task-input" placeholder="Digite uma tarefa" maxlength="80" required />
+        <button type="submit">Adicionar</button>
+      </form>
+
+      <div class="toolbar">
+        <select id="filter">
+          <option value="all">Todas</option>
+          <option value="pending">Pendentes</option>
+          <option value="done">Concluídas</option>
+        </select>
+        <button id="clear-done" class="secondary">Limpar concluídas</button>
+      </div>
+
+      <ul id="task-list" class="task-list"></ul>
+      <p id="empty-state" class="empty-state">Nenhuma tarefa cadastrada.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
