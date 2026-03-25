@@ -3,7 +3,7 @@
 Aplicação web de lista de tarefas com interface moderna, armazenamento local e filtro de tarefas.
 
 ## Acesso ao projeto
-🔗 [Clique aqui para acessar](https://seuusuario.github.io/nome-do-repositorio/)
+🔗 [Clique aqui para acessar](https://phmbezerra.github.io/to-do-list-js/)
 
 ## Tecnologias
 - HTML
